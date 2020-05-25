@@ -216,7 +216,7 @@
                     <h2 class="section-heading text-uppercase">Contactez-moi</h2>
                     <h3 class="section-subheading text-muted">Le plus simple c'est de m'écrire !</h3>
                 </div>
-                <!--<form action="POST" data-netlify="true" id="contactForm" name="sentMessage" novalidate="novalidate">
+                <form method="POST" data-netlify="true" id="contactForm" name="sentMessage">
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
                             <div class="form-group">
@@ -246,29 +246,9 @@
                         <div id="success"></div>
                         <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Send Message</button>
                     </div>
-                </form>-->
+                </form>
 
 
-                <form name="contact" method="POST" data-netlify="true">
-                    <p>
-                      <label>Your Name: <input type="text" name="name" /></label>   
-                    </p>
-                    <p>
-                      <label>Your Email: <input type="email" name="email" /></label>
-                    </p>
-                    <p>
-                      <label>Your Role: <select name="role[]" multiple>
-                        <option value="leader">Leader</option>
-                        <option value="follower">Follower</option>
-                      </select></label>
-                    </p>
-                    <p>
-                      <label>Message: <textarea name="message"></textarea></label>
-                    </p>
-                    <p>
-                      <button type="submit">Send</button>
-                    </p>
-                  </form>
 
 
             </div>
