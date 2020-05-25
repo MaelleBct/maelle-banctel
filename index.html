@@ -216,7 +216,7 @@
                     <h2 class="section-heading text-uppercase">Contactez-moi</h2>
                     <h3 class="section-subheading text-muted">Le plus simple c'est de m'écrire !</h3>
                 </div>
-                <!--<form method="POST" data-netlify="true" id="contactForm" name="sentMessage">
+               <!-- <form method="POST" data-netlify="true" id="contactForm" name="sentMessage">
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
                             <div class="form-group">
@@ -242,6 +242,8 @@
                         <div data-netlify-recaptcha="true"></div>
 
                     </div>
+
+
                     <div class="text-center">
                         <div id="success"></div>
                         <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Send Message</button>
@@ -250,8 +252,7 @@
 
 
 
-
-                <form name="contact" method="POST" data-netlify="true">
+                <form name="contact" method="POST" data-netlify="true" id="contactForm">
                     <p>
                       <label>Your Name: <input type="text" name="name" /></label>   
                     </p>
@@ -267,9 +268,10 @@
                     <p>
                       <label>Message: <textarea name="message"></textarea></label>
                     </p>
-                    <p>
-                      <button type="submit">Send</button>
-                    </p>
+                    <div class="text-center">
+                        <div id="success"></div>
+                        <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Send Message</button>
+                    </div>
                   </form>
 
 
