@@ -74,3 +74,5 @@ const play = () => {
 
 let timer = setInterval(play, 300)
 
+console.log("test serveur")
+
