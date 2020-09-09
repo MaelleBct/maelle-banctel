@@ -10858,3 +10858,20 @@ font-size:300%
       transform: rotate(-3deg)
   }
 }
+
+/**AUTOTEXTE **/
+
+#autotext{
+  border-right: 0.15em solid #fed136;
+  animation: blink 0.75s step-end infinite;
+}
+
+@keyframes blink {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50%{
+    border-color: #fed136;
+  }
+}

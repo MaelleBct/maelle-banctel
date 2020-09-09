@@ -54,3 +54,23 @@
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
 })(jQuery); // End of use strict
+
+
+//**AUTOTEXTE */
+
+const autotext = document.getElementById('autotext')
+const text = "Bienvenue sur M is coding !"
+
+let index = 0;
+
+const play = () => {
+    autotext.innerHTML= text.slice(0,index)
+    index++;
+
+    if(index>text.length){
+        index = 0
+    }
+}
+
+let timer = setInterval(play, 300)
+
