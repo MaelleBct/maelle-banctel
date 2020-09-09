@@ -10711,13 +10711,14 @@ div.portfolio-item:hover{
 }
 
 
+/**Page 404 **/
 
-body{
+.box{
   margin: 0;
   padding: 20px;
   background-color:#FFC900;
   font-family: arial;
-height: 700px
+height: 100vh;
 }
 
 .info{
@@ -10727,7 +10728,7 @@ left:0;
 padding: 10px 0;
 font-size: 110%;
 text-transform: capitalize;
-color:#fed136;
+color:#FFC900;
 font-weight: 700;
 background-color:#fff;
 width:100%;
@@ -10740,7 +10741,7 @@ color:#333
 }
 .info a:after{
 content:" | ";
-color:#fed136
+color:#FFC900
 }
 
 .info a:last-of-type:after{content:""}
@@ -10754,7 +10755,7 @@ color:#fed136
   width: 250px;
   height: 80px;
   line-height: 80px;
-  color:#fed136;
+  color:#ffc900;
   background-color: #fff;
   font-size: 280%;
   position: absolute;
