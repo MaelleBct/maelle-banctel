@@ -63,6 +63,10 @@ const text = "Bienvenue sur M is coding !"
 
 let index = 0;
 
+const randomSpeed =(min, max) => {
+    return Math.floor(Math.random()*(max-min)+min)
+}
+
 const play = () => {
     autotext.innerHTML= text.slice(0,index)
     index++;
@@ -70,9 +74,12 @@ const play = () => {
     if(index>text.length){
         index = 0
     }
+
+    clearInterval(timer)
+    timer = setInterval(play, randomSpeed(50, 300))
 }
 
 let timer = setInterval(play, 300)
 
-console.log("test serveur")
+
 
