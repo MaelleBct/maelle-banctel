@@ -59,7 +59,7 @@
 //**AUTOTEXTE */
 
 const autotext = document.getElementById('autotext')
-const text = "Bienvenue sur M is coding !"
+const text = "Bienvenue sur M is coding, je suis Maëlle BANCTEL"
 
 let index = 0;
 
