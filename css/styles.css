@@ -10875,3 +10875,16 @@ font-size:300%
     border-color: #fed136;
   }
 }
+
+@media (max-width: 800px){
+.masthead-subheading{
+  display: none;
+}
+div.titre_smartphone{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+}
